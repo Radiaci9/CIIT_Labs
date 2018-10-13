@@ -1,0 +1,5 @@
+<svg id="hat" viewBox="0 0 24 24" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd" transform="matrix(1.4094 0 0 1.4094 1.632 1.299)">
+    <path stroke="white" stroke-width="1.5" d="M4.75 7.617v2.766l2.765 1.73 2.735-1.732V7.62l-5.5-.004v.001z"></path>
+    <path fill="white" d="M2 10h1V5H2z"></path>
+    <path stroke="white" stroke-width="1.5" d="M7.544.87l-6.08 3.552 6.08 3.699 6.005-3.699L7.544.87z"></path></g></svg>

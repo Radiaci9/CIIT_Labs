@@ -1,0 +1,265 @@
+.header{
+  height: 550px;
+  background-image: repeating-linear-gradient(150deg,rgba(255,255,255,.06),rgba(255,255,255,.06) 1px,
+                    transparent 0,transparent 41px),repeating-linear-gradient(-150deg,rgba(255,255,255,.06),
+                    rgba(255,255,255,.06) 1px,transparent 0,transparent 41px);
+  background-color: #302683;
+}
+.header-inner{
+  width: 95%;
+  height: 100%;
+  margin: auto;
+}
+
+.menu{
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+.menu-logo{
+  width: 104px;
+  height: 36px;
+  display: none;
+}
+.menu-icon{
+  width: 18px;
+  height: 18px;
+  align-self: center;
+  padding-right: 2px;
+}
+.menu-list-main{
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.menu-list-main li{
+  margin: 0;
+  padding: 0 10px;
+}
+.menu-list-main li ul{
+  list-style: none;
+  display: none;
+  padding: 0;
+  position: absolute;
+}
+.menu-list-main li ul li{
+  display: block;
+  padding: 10px;
+}
+.menu-list-main li:hover > ul{
+  display: block;
+}
+.menu-list-main li a:hover{
+  color: grey;
+}
+.menu-list-user li a:hover{
+  color: grey;
+}
+.menu-list-user{
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.menu-list-user li{
+  margin: 0;
+  padding: 0 10px;
+}
+.menu-link{
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+.menu-link-with-icon{
+  display: flex;
+}
+
+.menu-humburger{
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 60px;
+  height: 60px;
+}
+.menu-list-humburger{
+  display: none;
+  list-style: none;
+}
+.menu-list-humburger li ul{
+  list-style: none;
+}
+.menu-list-humburger li a{
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid #6c6c7c;
+}
+
+.poster{
+  display: flex;
+  width: 90%;
+  height: 80%;
+  margin: auto 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.poster-logo{
+  width: 50%;
+}
+.poster-block{
+  width: 45%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  align-self: center;
+}
+.poster-block > p {
+  margin: 0 0 40px 0;
+}
+.poster-button{
+  padding: .7em .875em;
+  font-weight: 500;
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #4eb543;
+  border-color: #4eb543;
+  width: 270px;
+}
+
+.content{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 25px 50px;
+}
+.content-block{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.content-block-reverse{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.content-text{
+  max-width: 66.7%;
+  margin: auto;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.content-text > h2{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.content-text > p{
+  font-size: 16px;
+}
+.content-image{
+  width: 33.3%;
+  align-self: center;
+}
+
+.statistics{
+  background: #f8f8f8;
+  display: flex;
+  padding: 10px 10%;
+  justify-content: space-around;
+}
+.statistics-block{
+  align-items: center;
+  flex-direction: column;
+  padding: 0 0 10px 0;
+}
+.statistics-text{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.statistics-text > h1{
+  margin: 0;
+}
+.statistics-text > p{
+  margin: 0;
+}
+
+.comments{
+  width: 60%;
+  margin: auto;
+}
+.comments-block{
+  padding: 25px 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.comments-text{
+  width: 80%;
+}
+.comments-text :first-child{
+  margin: 0;
+}
+.comments-image{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+@media all and (max-width: 768px) {
+  .menu-logo{
+    display: block;
+    align-self: center;
+  }
+  .menu-humburger{
+    display: block;
+  }
+  .menu-humburger:hover ~ .menu-list-humburger{
+    display: unset;
+  }
+  .menu-humburger:hover ~ .poster{
+    display: none;
+  }
+  .menu-list-main li a{
+    display: none
+  }
+  .menu-list-user{
+    display: none;
+  }
+  .poster-logo{
+    display: none;
+  }
+  .poster-block{
+    text-align: center;
+    width: 90%;
+    font-size: 24px;
+  }
+  .content{
+    padding: 0;
+  }
+  .content-block{
+    flex-direction: column;
+  }
+  .content-block-reverse{
+    flex-direction: column;
+  }
+  .content-text{
+    align-self: flex-start;
+    margin: unset;
+    max-width: 95%;
+  }
+  .content-text > p{
+    font-size: 14px;
+  }
+  .content-image{
+    width: 50%;
+  }
+  .statistics{
+    flex-direction: column;
+
+  }
+  .statistics-block{
+    width: auto;
+    align-self: center;
+  }
+}
