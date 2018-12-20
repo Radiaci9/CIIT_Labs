@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> render() renders the component 1`] = `
+<div
+  className="col-sm-11 row"
+  style={
+    Object {
+      "display": "flex",
+      "margin": "20px auto 20px auto",
+    }
+  }
+>
+  <Col
+    tag="div"
+    widths={
+      Array [
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+      ]
+    }
+  >
+    <Button
+      color="primary"
+      key="button0"
+      name="button0"
+      onClick={[Function]}
+      size="lg"
+      style={
+        Object {
+          "marginRight": "20px",
+        }
+      }
+      tag="button"
+    >
+      label
+    </Button>
+  </Col>
+</div>
+`;

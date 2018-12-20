@@ -1,0 +1,699 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RepositoriesPage /> render() render the component with data 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(RepositoriesPage)>
+    <RepositoriesPage
+      fetchUserRepositoriesByCriteria={[Function]}
+      fetchUserRepositoriesByCriteriaBest={[Function]}
+      fetchUserRepositoriesByCriteriaBestFastGrowing={[Function]}
+      searchResult={
+        Object {
+          "error": false,
+          "repositories": Array [
+            Object {
+              "id": "id1",
+              "name": "name1",
+            },
+          ],
+        }
+      }
+    >
+      <Row
+        className="col-sm-11"
+        style={
+          Object {
+            "display": "flex",
+            "margin": "20px auto 20px auto",
+          }
+        }
+        tag="div"
+      >
+        <div
+          className="col-sm-11 row"
+          style={
+            Object {
+              "display": "flex",
+              "margin": "20px auto 20px auto",
+            }
+          }
+        >
+          <Row
+            className="col-sm-11"
+            tag="div"
+          >
+            <div
+              className="col-sm-11 row"
+            >
+              <Col
+                sm={
+                  Object {
+                    "size": 6,
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-sm-6"
+                >
+                  <Input
+                    defaultValue="react"
+                    id="searchCriteria"
+                    name="searchCriteria"
+                    type="text"
+                  >
+                    <input
+                      className="form-control"
+                      defaultValue="react"
+                      id="searchCriteria"
+                      name="searchCriteria"
+                      type="text"
+                    />
+                  </Input>
+                </div>
+              </Col>
+              <Col
+                sm={
+                  Object {
+                    "size": "auto",
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-sm-auto"
+                >
+                  <Label
+                    check={true}
+                    className="float-right"
+                    style={
+                      Object {
+                        "fontSize": "20px",
+                      }
+                    }
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <label
+                      className="float-right form-check-label"
+                      style={
+                        Object {
+                          "fontSize": "20px",
+                        }
+                      }
+                    >
+                      <Input
+                        id="local"
+                        type="checkbox"
+                      >
+                        <input
+                          className="form-check-input"
+                          id="local"
+                          type="checkbox"
+                        />
+                      </Input>
+                       
+                      Local
+                    </label>
+                  </Label>
+                </div>
+              </Col>
+              <Col
+                sm={
+                  Object {
+                    "size": "auto",
+                  }
+                }
+                style={
+                  Object {
+                    "margin": 0,
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-sm-auto"
+                  style={
+                    Object {
+                      "margin": 0,
+                    }
+                  }
+                >
+                  <Button
+                    className="float-right"
+                    color="primary"
+                    id="findBtn"
+                    onClick={[Function]}
+                    tag="button"
+                  >
+                    <button
+                      aria-label={null}
+                      className="float-right btn btn-primary"
+                      id="findBtn"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Find
+                    </button>
+                  </Button>
+                </div>
+              </Col>
+              <Col
+                sm={
+                  Object {
+                    "size": "auto",
+                  }
+                }
+                style={
+                  Object {
+                    "margin": 0,
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-sm-auto"
+                  style={
+                    Object {
+                      "margin": 0,
+                    }
+                  }
+                >
+                  <Button
+                    className="float-right"
+                    color="primary"
+                    id="bestFiveBtn"
+                    onClick={[Function]}
+                    tag="button"
+                  >
+                    <button
+                      aria-label={null}
+                      className="float-right btn btn-primary"
+                      id="bestFiveBtn"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      The best Five
+                    </button>
+                  </Button>
+                </div>
+              </Col>
+              <Col
+                sm={
+                  Object {
+                    "size": "auto",
+                  }
+                }
+                style={
+                  Object {
+                    "margin": 0,
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-sm-auto"
+                  style={
+                    Object {
+                      "margin": 0,
+                    }
+                  }
+                >
+                  <Button
+                    className="float-right"
+                    color="primary"
+                    id="bestFastBtn"
+                    onClick={[Function]}
+                    tag="button"
+                  >
+                    <button
+                      aria-label={null}
+                      className="float-right btn btn-primary"
+                      id="bestFastBtn"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      The best Fast growing
+                    </button>
+                  </Button>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <br />
+          <br />
+          <br />
+          <br />
+          <Col
+            sm={
+              Object {
+                "size": 8,
+              }
+            }
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="col-sm-8"
+            >
+              <div>
+                <h2>
+                  Repositories:
+                </h2>
+                <ul
+                  className="list=group mb-3"
+                  key="id1"
+                >
+                  <li
+                    className="list-group-item"
+                    key="Idid1"
+                  >
+                    Id
+                    : 
+                    id1
+                  </li>
+                  <li
+                    className="list-group-item"
+                    key="Namename1"
+                  >
+                    Name
+                    : 
+                    name1
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </RepositoriesPage>
+  </Connect(RepositoriesPage)>
+</Provider>
+`;
+
+exports[`<RepositoriesPage /> render() renders the component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(RepositoriesPage)>
+    <RepositoriesPage
+      fetchUserRepositoriesByCriteria={[Function]}
+      fetchUserRepositoriesByCriteriaBest={[Function]}
+      fetchUserRepositoriesByCriteriaBestFastGrowing={[Function]}
+      searchResult={
+        Object {
+          "error": false,
+          "repositories": Array [],
+        }
+      }
+    >
+      <Row
+        className="col-sm-11"
+        style={
+          Object {
+            "display": "flex",
+            "margin": "20px auto 20px auto",
+          }
+        }
+        tag="div"
+      >
+        <div
+          className="col-sm-11 row"
+          style={
+            Object {
+              "display": "flex",
+              "margin": "20px auto 20px auto",
+            }
+          }
+        >
+          <Row
+            className="col-sm-11"
+            tag="div"
+          >
+            <div
+              className="col-sm-11 row"
+            >
+              <Col
+                sm={
+                  Object {
+                    "size": 6,
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-sm-6"
+                >
+                  <Input
+                    defaultValue="react"
+                    id="searchCriteria"
+                    name="searchCriteria"
+                    type="text"
+                  >
+                    <input
+                      className="form-control"
+                      defaultValue="react"
+                      id="searchCriteria"
+                      name="searchCriteria"
+                      type="text"
+                    />
+                  </Input>
+                </div>
+              </Col>
+              <Col
+                sm={
+                  Object {
+                    "size": "auto",
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-sm-auto"
+                >
+                  <Label
+                    check={true}
+                    className="float-right"
+                    style={
+                      Object {
+                        "fontSize": "20px",
+                      }
+                    }
+                    tag="label"
+                    widths={
+                      Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ]
+                    }
+                  >
+                    <label
+                      className="float-right form-check-label"
+                      style={
+                        Object {
+                          "fontSize": "20px",
+                        }
+                      }
+                    >
+                      <Input
+                        id="local"
+                        type="checkbox"
+                      >
+                        <input
+                          className="form-check-input"
+                          id="local"
+                          type="checkbox"
+                        />
+                      </Input>
+                       
+                      Local
+                    </label>
+                  </Label>
+                </div>
+              </Col>
+              <Col
+                sm={
+                  Object {
+                    "size": "auto",
+                  }
+                }
+                style={
+                  Object {
+                    "margin": 0,
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-sm-auto"
+                  style={
+                    Object {
+                      "margin": 0,
+                    }
+                  }
+                >
+                  <Button
+                    className="float-right"
+                    color="primary"
+                    id="findBtn"
+                    onClick={[Function]}
+                    tag="button"
+                  >
+                    <button
+                      aria-label={null}
+                      className="float-right btn btn-primary"
+                      id="findBtn"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Find
+                    </button>
+                  </Button>
+                </div>
+              </Col>
+              <Col
+                sm={
+                  Object {
+                    "size": "auto",
+                  }
+                }
+                style={
+                  Object {
+                    "margin": 0,
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-sm-auto"
+                  style={
+                    Object {
+                      "margin": 0,
+                    }
+                  }
+                >
+                  <Button
+                    className="float-right"
+                    color="primary"
+                    id="bestFiveBtn"
+                    onClick={[Function]}
+                    tag="button"
+                  >
+                    <button
+                      aria-label={null}
+                      className="float-right btn btn-primary"
+                      id="bestFiveBtn"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      The best Five
+                    </button>
+                  </Button>
+                </div>
+              </Col>
+              <Col
+                sm={
+                  Object {
+                    "size": "auto",
+                  }
+                }
+                style={
+                  Object {
+                    "margin": 0,
+                  }
+                }
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <div
+                  className="col-sm-auto"
+                  style={
+                    Object {
+                      "margin": 0,
+                    }
+                  }
+                >
+                  <Button
+                    className="float-right"
+                    color="primary"
+                    id="bestFastBtn"
+                    onClick={[Function]}
+                    tag="button"
+                  >
+                    <button
+                      aria-label={null}
+                      className="float-right btn btn-primary"
+                      id="bestFastBtn"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      The best Fast growing
+                    </button>
+                  </Button>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <br />
+          <br />
+          <br />
+          <br />
+          <Col
+            sm={
+              Object {
+                "size": 8,
+              }
+            }
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="col-sm-8"
+            >
+              <h4>
+                Repositories Not Found
+              </h4>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </RepositoriesPage>
+  </Connect(RepositoriesPage)>
+</Provider>
+`;

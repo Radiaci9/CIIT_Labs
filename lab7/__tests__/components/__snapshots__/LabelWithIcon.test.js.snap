@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LabelWithIcon /> render() renders the component 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "marginTop": "5px",
+    }
+  }
+>
+  <img
+    alt=""
+    src="../../img/link.svg"
+  />
+  <a
+    href="label"
+    name="aLink"
+    style={
+      Object {
+        "margin": "0 0 0 10px",
+      }
+    }
+  >
+    label
+  </a>
+</div>
+`;

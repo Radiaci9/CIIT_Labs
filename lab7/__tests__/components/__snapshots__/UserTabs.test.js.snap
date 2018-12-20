@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserTabs /> render() renders the component 1`] = `
+<div
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <Nav
+    tabs={true}
+    tag="ul"
+    vertical={false}
+  >
+    <NavItem
+      key="0"
+      tag="li"
+    >
+      <NavLink
+        active={true}
+        onClick={[Function]}
+        tag="a"
+      >
+        tab1
+      </NavLink>
+    </NavItem>
+  </Nav>
+  <TabContent
+    activeTab={0}
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+    tag="div"
+  >
+    <TabPane
+      key="0"
+      style={
+        Object {
+          "height": "100%",
+        }
+      }
+      tabId={0}
+      tag="div"
+    >
+      <Row
+        style={
+          Object {
+            "margin": "20px 0 20px 0",
+          }
+        }
+        tag="div"
+      >
+        <Col
+          tag="div"
+          widths={
+            Array [
+              "xs",
+              "sm",
+              "md",
+              "lg",
+              "xl",
+            ]
+          }
+        >
+          <Label
+            check={true}
+            className="float-right"
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Input
+              type="checkbox"
+            />
+             
+            Edit
+          </Label>
+        </Col>
+      </Row>
+      <Row
+        style={
+          Object {
+            "height": "80%",
+          }
+        }
+        tag="div"
+      >
+        <Input
+          type="textarea"
+        />
+      </Row>
+    </TabPane>
+  </TabContent>
+</div>
+`;

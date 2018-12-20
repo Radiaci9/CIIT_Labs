@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> render() renders the component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Home)>
+    <Home
+      fetchUser={[Function]}
+      fetchUserOrgs={[Function]}
+      user={
+        Object {
+          "avatar": null,
+          "bio": "bio",
+          "blog": "blog",
+          "company": "company",
+          "email": "email",
+          "location": "location",
+          "login": "login",
+          "name": "name",
+        }
+      }
+    >
+      <Row
+        className="col-sm-11"
+        style={
+          Object {
+            "display": "flex",
+            "margin": "20px auto 20px auto",
+          }
+        }
+        tag="div"
+      >
+        <div
+          className="col-sm-11 row"
+          style={
+            Object {
+              "display": "flex",
+              "margin": "20px auto 20px auto",
+            }
+          }
+        >
+          <Col
+            hd={
+              Object {
+                "size": 3,
+              }
+            }
+            md={
+              Object {
+                "size": "auto",
+              }
+            }
+            sm={
+              Object {
+                "size": 12,
+              }
+            }
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="col-sm-12 col-md-auto"
+              hd={
+                Object {
+                  "size": 3,
+                }
+              }
+            >
+              <UserInfo
+                user={
+                  Object {
+                    "avatar": null,
+                    "bio": "bio",
+                    "blog": "blog",
+                    "company": "company",
+                    "email": "email",
+                    "location": "location",
+                    "login": "login",
+                    "name": "name",
+                  }
+                }
+              >
+                <div>
+                  <img
+                    alt="avatar"
+                    src={null}
+                    style={
+                      Object {
+                        "borderRadius": "15px",
+                        "height": "250px",
+                        "width": "250px",
+                      }
+                    }
+                  />
+                  <h2
+                    className="nullMargin"
+                    name="name"
+                  >
+                    name
+                  </h2>
+                  <p
+                    className="nullMargin"
+                    name="login"
+                  >
+                    login
+                  </p>
+                  <p
+                    name="bio"
+                    style={
+                      Object {
+                        "width": "250px",
+                      }
+                    }
+                  >
+                    bio
+                  </p>
+                  <hr
+                    style={
+                      Object {
+                        "marginLeft": 0,
+                        "width": "250px",
+                      }
+                    }
+                  />
+                  <LabelWithIcon
+                    iconSrc="../img/organization.svg"
+                    label="company"
+                    link={false}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "display": "flex",
+                          "marginTop": "5px",
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        src="../img/organization.svg"
+                      />
+                      <p
+                        name="pLink"
+                        style={
+                          Object {
+                            "margin": "0 0 0 10px",
+                          }
+                        }
+                      >
+                        company
+                      </p>
+                    </div>
+                  </LabelWithIcon>
+                  <LabelWithIcon
+                    iconSrc="../img/location.svg"
+                    label="location"
+                    link={false}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "display": "flex",
+                          "marginTop": "5px",
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        src="../img/location.svg"
+                      />
+                      <p
+                        name="pLink"
+                        style={
+                          Object {
+                            "margin": "0 0 0 10px",
+                          }
+                        }
+                      >
+                        location
+                      </p>
+                    </div>
+                  </LabelWithIcon>
+                  <LabelWithIcon
+                    iconSrc="../img/send.svg"
+                    label="email"
+                    link={true}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "display": "flex",
+                          "marginTop": "5px",
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        src="../img/send.svg"
+                      />
+                      <a
+                        href="email"
+                        name="aLink"
+                        style={
+                          Object {
+                            "margin": "0 0 0 10px",
+                          }
+                        }
+                      >
+                        email
+                      </a>
+                    </div>
+                  </LabelWithIcon>
+                  <LabelWithIcon
+                    iconSrc="../img/link.svg"
+                    label="blog"
+                    link={true}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "display": "flex",
+                          "marginTop": "5px",
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        src="../img/link.svg"
+                      />
+                      <a
+                        href="blog"
+                        name="aLink"
+                        style={
+                          Object {
+                            "margin": "0 0 0 10px",
+                          }
+                        }
+                      >
+                        blog
+                      </a>
+                    </div>
+                  </LabelWithIcon>
+                </div>
+              </UserInfo>
+            </div>
+          </Col>
+          <Col
+            hd={
+              Object {
+                "size": 9,
+              }
+            }
+            md={
+              Object {
+                "size": 8,
+              }
+            }
+            sm={
+              Object {
+                "size": 12,
+              }
+            }
+            style={
+              Object {
+                "margin": "0 auto 0 auto",
+              }
+            }
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="col-sm-12 col-md-8"
+              hd={
+                Object {
+                  "size": 9,
+                }
+              }
+              style={
+                Object {
+                  "margin": "0 auto 0 auto",
+                }
+              }
+            >
+              <UserTabs
+                tabs={
+                  Array [
+                    "Main",
+                    "Education",
+                    "Contacts",
+                  ]
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "height": "100%",
+                    }
+                  }
+                >
+                  <Nav
+                    tabs={true}
+                    tag="ul"
+                    vertical={false}
+                  >
+                    <ul
+                      className="nav nav-tabs"
+                    >
+                      <NavItem
+                        key="0"
+                        tag="li"
+                      >
+                        <li
+                          className="nav-item"
+                        >
+                          <NavLink
+                            active={true}
+                            onClick={[Function]}
+                            tag="a"
+                          >
+                            <a
+                              className="nav-link active"
+                              onClick={[Function]}
+                            >
+                              Main
+                            </a>
+                          </NavLink>
+                        </li>
+                      </NavItem>
+                      <NavItem
+                        key="1"
+                        tag="li"
+                      >
+                        <li
+                          className="nav-item"
+                        >
+                          <NavLink
+                            active={false}
+                            onClick={[Function]}
+                            tag="a"
+                          >
+                            <a
+                              className="nav-link"
+                              onClick={[Function]}
+                            >
+                              Education
+                            </a>
+                          </NavLink>
+                        </li>
+                      </NavItem>
+                      <NavItem
+                        key="2"
+                        tag="li"
+                      >
+                        <li
+                          className="nav-item"
+                        >
+                          <NavLink
+                            active={false}
+                            onClick={[Function]}
+                            tag="a"
+                          >
+                            <a
+                              className="nav-link"
+                              onClick={[Function]}
+                            >
+                              Contacts
+                            </a>
+                          </NavLink>
+                        </li>
+                      </NavItem>
+                    </ul>
+                  </Nav>
+                  <TabContent
+                    activeTab={0}
+                    style={
+                      Object {
+                        "height": "100%",
+                      }
+                    }
+                    tag="div"
+                  >
+                    <div
+                      className="tab-content"
+                      style={
+                        Object {
+                          "height": "100%",
+                        }
+                      }
+                    >
+                      <TabPane
+                        key="0"
+                        style={
+                          Object {
+                            "height": "100%",
+                          }
+                        }
+                        tabId={0}
+                        tag="div"
+                      >
+                        <div
+                          className="tab-pane active"
+                          style={
+                            Object {
+                              "height": "100%",
+                            }
+                          }
+                        >
+                          <Row
+                            style={
+                              Object {
+                                "margin": "20px 0 20px 0",
+                              }
+                            }
+                            tag="div"
+                          >
+                            <div
+                              className="row"
+                              style={
+                                Object {
+                                  "margin": "20px 0 20px 0",
+                                }
+                              }
+                            >
+                              <Col
+                                tag="div"
+                                widths={
+                                  Array [
+                                    "xs",
+                                    "sm",
+                                    "md",
+                                    "lg",
+                                    "xl",
+                                  ]
+                                }
+                              >
+                                <div
+                                  className="col"
+                                >
+                                  <Label
+                                    check={true}
+                                    className="float-right"
+                                    tag="label"
+                                    widths={
+                                      Array [
+                                        "xs",
+                                        "sm",
+                                        "md",
+                                        "lg",
+                                        "xl",
+                                      ]
+                                    }
+                                  >
+                                    <label
+                                      className="float-right form-check-label"
+                                    >
+                                      <Input
+                                        type="checkbox"
+                                      >
+                                        <input
+                                          className="form-check-input"
+                                          type="checkbox"
+                                        />
+                                      </Input>
+                                       
+                                      Edit
+                                    </label>
+                                  </Label>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                          <Row
+                            style={
+                              Object {
+                                "height": "80%",
+                              }
+                            }
+                            tag="div"
+                          >
+                            <div
+                              className="row"
+                              style={
+                                Object {
+                                  "height": "80%",
+                                }
+                              }
+                            >
+                              <Input
+                                type="textarea"
+                              >
+                                <textarea
+                                  className="form-control"
+                                />
+                              </Input>
+                            </div>
+                          </Row>
+                        </div>
+                      </TabPane>
+                      <TabPane
+                        key="1"
+                        style={
+                          Object {
+                            "height": "100%",
+                          }
+                        }
+                        tabId={1}
+                        tag="div"
+                      >
+                        <div
+                          className="tab-pane"
+                          style={
+                            Object {
+                              "height": "100%",
+                            }
+                          }
+                        >
+                          <Row
+                            style={
+                              Object {
+                                "margin": "20px 0 20px 0",
+                              }
+                            }
+                            tag="div"
+                          >
+                            <div
+                              className="row"
+                              style={
+                                Object {
+                                  "margin": "20px 0 20px 0",
+                                }
+                              }
+                            >
+                              <Col
+                                tag="div"
+                                widths={
+                                  Array [
+                                    "xs",
+                                    "sm",
+                                    "md",
+                                    "lg",
+                                    "xl",
+                                  ]
+                                }
+                              >
+                                <div
+                                  className="col"
+                                >
+                                  <Label
+                                    check={true}
+                                    className="float-right"
+                                    tag="label"
+                                    widths={
+                                      Array [
+                                        "xs",
+                                        "sm",
+                                        "md",
+                                        "lg",
+                                        "xl",
+                                      ]
+                                    }
+                                  >
+                                    <label
+                                      className="float-right form-check-label"
+                                    >
+                                      <Input
+                                        type="checkbox"
+                                      >
+                                        <input
+                                          className="form-check-input"
+                                          type="checkbox"
+                                        />
+                                      </Input>
+                                       
+                                      Edit
+                                    </label>
+                                  </Label>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                          <Row
+                            style={
+                              Object {
+                                "height": "80%",
+                              }
+                            }
+                            tag="div"
+                          >
+                            <div
+                              className="row"
+                              style={
+                                Object {
+                                  "height": "80%",
+                                }
+                              }
+                            >
+                              <Input
+                                type="textarea"
+                              >
+                                <textarea
+                                  className="form-control"
+                                />
+                              </Input>
+                            </div>
+                          </Row>
+                        </div>
+                      </TabPane>
+                      <TabPane
+                        key="2"
+                        style={
+                          Object {
+                            "height": "100%",
+                          }
+                        }
+                        tabId={2}
+                        tag="div"
+                      >
+                        <div
+                          className="tab-pane"
+                          style={
+                            Object {
+                              "height": "100%",
+                            }
+                          }
+                        >
+                          <Row
+                            style={
+                              Object {
+                                "margin": "20px 0 20px 0",
+                              }
+                            }
+                            tag="div"
+                          >
+                            <div
+                              className="row"
+                              style={
+                                Object {
+                                  "margin": "20px 0 20px 0",
+                                }
+                              }
+                            >
+                              <Col
+                                tag="div"
+                                widths={
+                                  Array [
+                                    "xs",
+                                    "sm",
+                                    "md",
+                                    "lg",
+                                    "xl",
+                                  ]
+                                }
+                              >
+                                <div
+                                  className="col"
+                                >
+                                  <Label
+                                    check={true}
+                                    className="float-right"
+                                    tag="label"
+                                    widths={
+                                      Array [
+                                        "xs",
+                                        "sm",
+                                        "md",
+                                        "lg",
+                                        "xl",
+                                      ]
+                                    }
+                                  >
+                                    <label
+                                      className="float-right form-check-label"
+                                    >
+                                      <Input
+                                        type="checkbox"
+                                      >
+                                        <input
+                                          className="form-check-input"
+                                          type="checkbox"
+                                        />
+                                      </Input>
+                                       
+                                      Edit
+                                    </label>
+                                  </Label>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                          <Row
+                            style={
+                              Object {
+                                "height": "80%",
+                              }
+                            }
+                            tag="div"
+                          >
+                            <div
+                              className="row"
+                              style={
+                                Object {
+                                  "height": "80%",
+                                }
+                              }
+                            >
+                              <Input
+                                type="textarea"
+                              >
+                                <textarea
+                                  className="form-control"
+                                />
+                              </Input>
+                            </div>
+                          </Row>
+                        </div>
+                      </TabPane>
+                    </div>
+                  </TabContent>
+                </div>
+              </UserTabs>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </Home>
+  </Connect(Home)>
+</Provider>
+`;

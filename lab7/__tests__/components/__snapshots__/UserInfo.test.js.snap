@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserInfo /> render() renders the component 1`] = `
+<div>
+  <img
+    alt="avatar"
+    src={null}
+    style={
+      Object {
+        "borderRadius": "15px",
+        "height": "250px",
+        "width": "250px",
+      }
+    }
+  />
+  <h2
+    className="nullMargin"
+    name="name"
+  >
+    name
+  </h2>
+  <p
+    className="nullMargin"
+    name="login"
+  >
+    login
+  </p>
+  <p
+    name="bio"
+    style={
+      Object {
+        "width": "250px",
+      }
+    }
+  >
+    bio
+  </p>
+  <hr
+    style={
+      Object {
+        "marginLeft": 0,
+        "width": "250px",
+      }
+    }
+  />
+  <LabelWithIcon
+    iconSrc="../img/organization.svg"
+    label="company"
+    link={false}
+  />
+  <LabelWithIcon
+    iconSrc="../img/location.svg"
+    label="location"
+    link={false}
+  />
+  <LabelWithIcon
+    iconSrc="../img/send.svg"
+    label="email"
+    link={true}
+  />
+  <LabelWithIcon
+    iconSrc="../img/link.svg"
+    label="blog"
+    link={true}
+  />
+</div>
+`;

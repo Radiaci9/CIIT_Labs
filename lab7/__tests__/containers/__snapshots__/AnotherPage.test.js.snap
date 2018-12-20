@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AnotherPage /> render() renders the component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(AnotherPage)>
+    <AnotherPage
+      fetchUserFollowers={[Function]}
+      fetchUserRepositories={[Function]}
+      user={
+        Object {
+          "error": false,
+          "followers": null,
+          "repositories": null,
+        }
+      }
+    >
+      <Row
+        className="col-sm-11"
+        style={
+          Object {
+            "display": "flex",
+            "margin": "20px auto 20px auto",
+          }
+        }
+        tag="div"
+      >
+        <div
+          className="col-sm-11 row"
+          style={
+            Object {
+              "display": "flex",
+              "margin": "20px auto 20px auto",
+            }
+          }
+        >
+          <Col
+            sm={
+              Object {
+                "size": 6,
+              }
+            }
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="col-sm-6"
+            >
+              <h2>
+                Followers:
+              </h2>
+              <img
+                alt="loading"
+                src="../images/Ajax-loader.gif"
+                style={
+                  Object {
+                    "display": "block",
+                    "margin": "0 auto",
+                  }
+                }
+              />
+            </div>
+          </Col>
+          <Col
+            sm={
+              Object {
+                "size": 6,
+              }
+            }
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="col-sm-6"
+            >
+              <h2>
+                Repositories:
+              </h2>
+              <img
+                alt="loading"
+                src="../images/Ajax-loader.gif"
+                style={
+                  Object {
+                    "display": "block",
+                    "margin": "0 auto",
+                  }
+                }
+              />
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </AnotherPage>
+  </Connect(AnotherPage)>
+</Provider>
+`;
+
+exports[`<AnotherPage /> render() renders the component with empty data 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(AnotherPage)>
+    <AnotherPage
+      fetchUserFollowers={[Function]}
+      fetchUserRepositories={[Function]}
+      user={
+        Object {
+          "error": true,
+          "followers": Array [],
+          "repositories": Array [],
+        }
+      }
+    >
+      <Row
+        className="col-sm-11"
+        style={
+          Object {
+            "display": "flex",
+            "margin": "20px auto 20px auto",
+          }
+        }
+        tag="div"
+      >
+        <div
+          className="col-sm-11 row"
+          style={
+            Object {
+              "display": "flex",
+              "margin": "20px auto 20px auto",
+            }
+          }
+        >
+          <Col
+            sm={
+              Object {
+                "size": 6,
+              }
+            }
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="col-sm-6"
+            >
+              <h2>
+                Followers:
+              </h2>
+              <h4>
+                Followers Not Found
+              </h4>
+            </div>
+          </Col>
+          <Col
+            sm={
+              Object {
+                "size": 6,
+              }
+            }
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="col-sm-6"
+            >
+              <h2>
+                Repositories:
+              </h2>
+              <h4>
+                Repositories Not Found
+              </h4>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </AnotherPage>
+  </Connect(AnotherPage)>
+</Provider>
+`;
+
+exports[`<AnotherPage /> render() renders the component with full data 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(AnotherPage)>
+    <AnotherPage
+      fetchUserFollowers={[Function]}
+      fetchUserRepositories={[Function]}
+      user={
+        Object {
+          "error": false,
+          "followers": Array [
+            Object {
+              "id": "id1",
+              "login": "login1",
+            },
+          ],
+          "repositories": Array [
+            Object {
+              "id": "id1",
+              "name": "name1",
+            },
+          ],
+        }
+      }
+    >
+      <Row
+        className="col-sm-11"
+        style={
+          Object {
+            "display": "flex",
+            "margin": "20px auto 20px auto",
+          }
+        }
+        tag="div"
+      >
+        <div
+          className="col-sm-11 row"
+          style={
+            Object {
+              "display": "flex",
+              "margin": "20px auto 20px auto",
+            }
+          }
+        >
+          <Col
+            sm={
+              Object {
+                "size": 6,
+              }
+            }
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="col-sm-6"
+            >
+              <h2>
+                Followers:
+              </h2>
+              <ul
+                className="list=group mb-3"
+                key="id1"
+              >
+                <li
+                  className="list-group-item"
+                  key="Idid1"
+                >
+                  Id
+                  : 
+                  id1
+                </li>
+                <li
+                  className="list-group-item"
+                  key="Loginlogin1"
+                >
+                  Login
+                  : 
+                  login1
+                </li>
+              </ul>
+            </div>
+          </Col>
+          <Col
+            sm={
+              Object {
+                "size": 6,
+              }
+            }
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <div
+              className="col-sm-6"
+            >
+              <h2>
+                Repositories:
+              </h2>
+              <ul
+                className="list=group mb-3"
+                key="id1"
+              >
+                <li
+                  className="list-group-item"
+                  key="Idid1"
+                >
+                  Id
+                  : 
+                  id1
+                </li>
+                <li
+                  className="list-group-item"
+                  key="Namename1"
+                >
+                  Name
+                  : 
+                  name1
+                </li>
+              </ul>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </AnotherPage>
+  </Connect(AnotherPage)>
+</Provider>
+`;
